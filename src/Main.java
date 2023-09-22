@@ -46,7 +46,7 @@ public class Main {
         }
         System.out.println("Количество элементов, отсутствующих в отчете: " + missingCount);
 
-        System.out.println("Элементы, отсутствующие в отчете из контсруктора:");
+        System.out.println("Элементы, отсутствующие в отчете из конструктора:");
         int unmatchedCount = 0;
         for (int i = 0; i < listToCompareSize; i++) {
             String element = listToCompare.get(i);
@@ -55,7 +55,7 @@ public class Main {
                 System.out.println(i + 1 + ". " + element);
             }
         }
-        System.out.println("Количество элементов, отсутствующих в отчете из контсруктора: " + unmatchedCount);
+        System.out.println("Количество элементов, отсутствующих в отчете из конструктора: " + unmatchedCount);
     }
 
 
